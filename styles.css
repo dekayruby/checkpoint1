@@ -1,0 +1,108 @@
+
+  .header {
+      border: solid 5px #ba135d;
+      margin: 50px 15%;
+      height: 85vh;
+      border-radius: 5px;
+  }
+
+  .header h1 {
+      position: absolute;
+      transform: translate(50px, 80px);
+      font-size: 35px;
+  }
+
+  .header img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .small-img {
+    border: solid 5px #ba135d;
+    width: 210px;
+    height: 150px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    /* box-shadow: 10px 0px 10px 10px black; */
+    filter: drop-shadow(0px 7px 8px grey);
+  }
+
+  .img-p  {
+    /* border: solid black; */
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainContainer {
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15%;
+  }
+
+  .bottomContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 50px 15%;
+    position: relative;
+  }
+
+  .featured {
+    border: solid 5px #ba135d;
+    grid-row: 1 / span 2;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: plum;
+  }
+
+  .hair-img {
+    width: 150px;
+    margin: 20px 10px 20px 0px;
+    border-radius: 5px;
+  }
+
+  .featured-spacing {
+    display: flex;
+    align-items: center;
+  }
+
+  .hairstyle {
+    border: solid 5px #ba135d;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: plum;
+  }
+
+.call-us {
+  display: flex;
+  align-items: center;
+  border: solid 5px #ba135d;
+  margin-bottom: 100px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: plum;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+  .sad-pug {
+    width: 200px;
+    margin-right: 15px;
+    border-radius: 5px;
+  }
+
+  .absolute-h2 {
+    position: absolute;
+    top: -15px;
+    background-color: #ba135d;
+    color: white;
+    padding: 5px 15px;
+  }
+
+ 
