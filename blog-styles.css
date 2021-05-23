@@ -10,7 +10,8 @@
 .sidebar {
     width: 40%;
     border: solid 5px #ba135d;
-    background-color: plum;
+    background-color: black;
+    color: white;
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
@@ -23,7 +24,7 @@
 
 .sidebar button {
     margin: 5px;
-    background-color: black;
+    background-color: #ba135d;
     color: white;
     border: none;
     font-size: 15px;

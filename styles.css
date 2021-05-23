@@ -45,6 +45,7 @@
     grid-template-rows: 1fr;
     margin: 50px 15%;
     position: relative;
+  
   }
 
   .featured {
@@ -53,7 +54,9 @@
     margin-right: 20px;
     padding: 20px;
     border-radius: 5px;
-    background-color: plum;
+    background-color: black;
+    color: white;
+    filter: drop-shadow(0px 10px 10px grey);
   }
 
   .hair-img {
@@ -74,7 +77,9 @@
     align-items: center;
     padding: 20px;
     border-radius: 5px;
-    background-color: plum;
+    background-color: black;
+    color: white;
+    filter: drop-shadow(0px 10px 10px grey);
   }
 
 .call-us {
@@ -84,9 +89,11 @@
   margin-bottom: 100px;
   padding: 20px;
   border-radius: 5px;
-  background-color: plum;
+  background-color: black;
+  color: white;
   font-weight: bold;
   font-size: 20px;
+  filter: drop-shadow(0px 10px 10px grey);
 }
 
   .sad-pug {

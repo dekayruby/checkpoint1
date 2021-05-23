@@ -1,6 +1,6 @@
 body {
     font-family: 'Athiti', sans-serif;
-    background-color: #e4efe7;
+    background: radial-gradient(circle, rgba(63,219,251,0.9140698515734419) 0%, rgba(141,252,70,0.8580474426098564) 100%);
   }
   nav {
       display: flex;
@@ -12,19 +12,21 @@ body {
       background-color: black;
     }
     nav div.zizurz {
-      background: #ba135d;
+      background-image: url(wave1.svg);
       height: 130px;
       width: 300px;
       display: flex;
       align-items: center;
       justify-content: center;
       color: white;
+      text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
       font-size: 40px;
       position: absolute;
       bottom: -20px;
       left: 15%;
       font-family: 'Athiti', sans-serif;
       letter-spacing: 5px;
+      border-radius: 5px;
       
     }
     nav ul {
@@ -86,12 +88,15 @@ body {
 
     /* cellphone responsive */
     @media (max-width: 576px) {
-        nav div.zizurz {
+        
+      nav div.zizurz {
             font-size: 30px;
             height: 60px;
-            width: 200px;
+            width: 300px;
             top: 20px;
-            left: 195px;
+            left: 50%;
+            margin-left: -150px;
+        
         }
     
         nav {
@@ -104,16 +109,17 @@ body {
         nav div.zizurz {
             font-size: 30px;
             height: 60px;
-            width: 200px;
+            width: 300px;
             top: 20px;
             left: 50%;
-            margin-left: -100px;
+            margin-left: -150px;
         }
     
         nav {
             display: flex;
             justify-content: center;
             padding: 0px;
+            
         }
         nav ul {
             padding: 60px 0px 0px;
