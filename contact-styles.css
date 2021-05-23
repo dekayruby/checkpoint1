@@ -1,0 +1,82 @@
+.mainContainer {
+    margin: 20px 15%;
+    display: flex;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-us {
+width: 50%;
+text-align: center;
+align-content: center;
+justify-content: center;
+}
+
+.contact-us h2 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.contact-us p {
+    margin: 10px 50px;
+}
+
+button {
+    width: 100px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    margin: 20px auto;
+    height: 40px;
+    font-size: 18px;
+}
+
+button:hover {
+    text-decoration: underline;
+    color: #ba135d;
+}
+
+/* cellphone */
+@media (max-width: 576px) {
+.mainContainer {
+    flex-direction: column;
+
+}
+.inputDiv {
+    width: 100%;
+}
+.contact-us {
+    width: 100%;
+}
+.inputDiv input {
+    width: 75%;
+}
+}
+
+
+/* tablet */
+@media (max-width: 1121px) and (min-width: 576px) {
+    .mainContainer {
+        flex-direction: column;
+    
+    }
+    .inputDiv {
+        width: 100%;
+    }
+    .contact-us {
+        width: 100%;
+    }
+    .inputDiv input {
+        width: 75%;
+    }
+}

@@ -1,0 +1,71 @@
+.mainContainer {
+    display: flex;
+    margin: 50px 15%;
+}
+
+.newsContainer {
+    width: 60%;
+}
+
+.sidebar {
+    width: 40%;
+    border: solid 5px #ba135d;
+    background-color: plum;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.sidebar button {
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.sidebar button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* cellphone */
+@media (max-width: 576px) {
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.newsContainer {
+    width: 100%;
+}
+
+.sidebar {
+    width: 100%;
+    margin: 20px 0px 0px;
+}
+}
+
+/* tablet */
+@media (max-width: 1121px) and (min-width: 576px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .newsContainer {
+        width: 100%;
+    }
+    
+    .sidebar {
+        width: 75%;
+        margin: 20px 0px 0px;
+    }
+    }

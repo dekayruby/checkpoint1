@@ -26,7 +26,32 @@
           <a href="contact.html" class="navB">Contact</a>
         </ul>
       </nav>
-
+      <div class="mainContainer">
+      <div class="newsContainer">
+          <h2>News</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dolores dignissimos. Officiis fugiat a exercitationem nihil dolore necessitatibus harum repellendus iure atque facilis error et, culpa quibusdam? Ipsa ducimus nostrum architecto voluptatum molestias sapiente nemo libero dolores ratione quisquam quae quos consequatur facere, ullam at minima similique vero dicta? Quas.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a officiis eveniet fugit ea vel quo maxime veniam nostrum quos, non maiores quas accusantium, omnis neque et commodi, voluptatum temporibus! Vel unde dolore tempora quis a ea consequuntur expedita quas? Sequi necessitatibus in illum corporis sit adipisci quo ad similique.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nisi, nam nemo minus voluptatibus debitis, consectetur beatae voluptate maxime delectus quisquam fugiat est magnam blanditiis nulla. Tenetur dolores eaque minima eos soluta at ducimus ea quae corporis ipsam numquam, recusandae unde quia reprehenderit vel beatae nam consequuntur obcaecati amet mollitia.</p>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque soluta ullam consectetur earum facilis laudantium iste unde veritatis voluptatum rem! Aperiam quibusdam expedita, et eligendi hic iste, commodi est perferendis illum temporibus laborum facere ratione voluptatibus excepturi repudiandae doloribus molestias id! Fuga minima dolores rerum accusantium distinctio, laborum eligendi aut?</p>
+      </div>
+      <div class="sidebar">
+        <h2 class="">Read some Blogs</h2>
+        <h3>Shampoo Recommendations</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt odit, illum quia culpa placeat alias praesentium ad obcaecati nemo perferendis laudantium in eius enim saepe.<span id="dots3">...</span><span id="more3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestias repellendus aspernatur error, dolorem facilis!</span></p>
+        <button class="" onclick="myFunction3()" id="myBtn3">Read more</button>
+        <br>
+        <h3>Why I love conditioning treatments</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ducimus officia delectus non nisi soluta.<span id="dots">...</span><span id="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est odit impedit unde eligendi alias nihil, earum vitae maiores quisquam molestias ipsa numquam dolorem at!</span></p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <br>
+        <h3>Best Haircut for your Face Shape</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis temporibus perspiciatis accusantium porro dolore excepturi ad, corporis numquam magnam voluptates necessitatibus officia quia sequi. Impedit? <span id="dots2">...</span><span id="more2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum totam, itaque soluta illum maiores eum?</span></p>
+        <button onclick="myFunction2()" id="myBtn2">Read more</button>
+      </div>
+      </div>
       <footer>
         <h4 class="footer-heading">Follow us on:</h4>
         <div class="socialMedia">
@@ -35,5 +60,54 @@
           <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
         </div>
       </footer>
+     
+     <script> function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+
+      function myFunction2() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+
+      function myFunction3() {
+        var dots = document.getElementById("dots3");
+        var moreText = document.getElementById("more3");
+        var btnText = document.getElementById("myBtn3");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
 </body>
 </html>
