@@ -1,5 +1,6 @@
 body {
     font-family: 'Athiti', sans-serif;
+    background-color: #e4efe7;
   }
   nav {
       display: flex;
@@ -81,4 +82,40 @@ body {
   
     .fa:hover {
       color: white;
+    }
+
+    /* cellphone responsive */
+    @media (max-width: 576px) {
+        nav div.zizurz {
+            font-size: 30px;
+            height: 60px;
+            width: 200px;
+            top: 20px;
+            left: 195px;
+        }
+    
+        nav {
+            justify-content: center;
+        }
+    }
+
+    /* tablet responsive */
+    @media (max-width: 1121px) {
+        nav div.zizurz {
+            font-size: 30px;
+            height: 60px;
+            width: 200px;
+            top: 20px;
+            left: 50%;
+            margin-left: -100px;
+        }
+    
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 0px;
+        }
+        nav ul {
+            padding: 60px 0px 0px;
+        }
     }
